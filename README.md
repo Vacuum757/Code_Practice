@@ -1,2 +1,2 @@
 # Code_Practice
-This is only for practicing coding.
+This is for practicing coding.

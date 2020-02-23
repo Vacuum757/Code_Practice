@@ -1,5 +1,5 @@
-//CES Question 11677 Alarm Clock
-//Question website : https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/11677.pdf
+// CES Question 11677 Alarm Clock
+// Question website : https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/11677.pdf
 
 #include <iostream>
 using namespace std;

@@ -1,5 +1,5 @@
-//CES Question 11677 Cool Word
-//Question website : https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/12820.pdf
+// CES Question 11677 Cool Word
+// Question website : https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/12820.pdf
 
 #include <iostream>
 #include <string>

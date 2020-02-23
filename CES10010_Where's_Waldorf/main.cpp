@@ -1,5 +1,5 @@
-//CES Question 10010: Where's Waldorf? 
-//Question website : https://onlinejudge.org/external/100/p10010.pdf
+// CES Question 10010: Where's Waldorf? 
+// Question website : https://onlinejudge.org/external/100/p10010.pdf
 
 #include <iostream>
 #include <string>

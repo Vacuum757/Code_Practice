@@ -1,5 +1,5 @@
-//CES Question 11677 Alarm Clock
-//Question website : https://onlinejudge.org/external/114/p11417.pdf
+// CES Question 11677 Alarm Clock
+// Question website : https://onlinejudge.org/external/114/p11417.pdf
 
 #include <iostream>
 using namespace std;

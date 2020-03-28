@@ -1,0 +1,48 @@
+class Solution:
+    def spiralMatrixIII(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
+        count = 2
+        go = 1
+        target = R * C
+        walked = 1
+        steps = 0
+        ans = []
+        directions = ['R','D','L','U']
+        ans.append([r0,c0])
+        direction = directions[steps%4]
+        while walked < target:
+            if direction == 'R':
+                for i in range(go):
+                    c0 += 1
+                    if r0 >= 0 and r0 < R and c0 >=0 and c0 < C:
+                        ans.append([r0,c0])
+                        walked += 1
+                        
+            if direction == 'D':
+                for i in range(go):
+                    r0 += 1
+                    if r0 >= 0 and r0 < R and c0 >=0 and c0 < C:
+                        ans.append([r0,c0])
+                        walked += 1
+                        
+            if direction == 'L':
+                for i in range(go):
+                    c0 -= 1
+                    if r0 >= 0 and r0 < R and c0 >=0 and c0 < C:
+                        ans.append([r0,c0])
+                        walked += 1
+                        
+            if direction == 'U':
+                for i in range(go):
+                    r0 -= 1
+                    if r0 >= 0 and r0 < R and c0 >=0 and c0 < C:
+                        ans.append([r0,c0])
+                        walked += 1
+                        
+            count -= 1
+            steps += 1
+            
+            if count == 0:
+                count = 2
+                go += 1
+            direction = directions[steps%4]
+        return ans
